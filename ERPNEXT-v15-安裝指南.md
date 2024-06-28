@@ -133,7 +133,7 @@
     sudo bench setup production frappe
     ```
 
-17. 下載app
+17. 下載app (注意：一次只能執行一行指令)
 
     ```bash
     bench get-app --branch version-15 https://gitee.com/qinyanwan/payments
@@ -141,7 +141,7 @@
     bench get-app --branch version-15 https://gitee.com/qinyanwan/hrms  
     ```
 
-18. 安裝app
+18. 安裝app (注意：一次只能執行一行指令)
 
     ```bash
     bench --site erpnext install-app payments
