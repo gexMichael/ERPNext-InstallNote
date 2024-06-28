@@ -109,10 +109,10 @@
     bench init --frappe-branch version-15 frappe-bench
     ```
 
-13. ~~再將安裝的系統使用者分配一下執行許可權。（這步沒啥用，寫作文湊字數的，可略過。）~~
+13. 再將安裝的系統使用者分配一下執行許可權。（這步沒啥用，寫作文湊字數的，可略過。）
 
     ```bash
-    chmod -R o+rx /home/[frappe-user]/
+    chmod -R o+rx /home/frappe/
     ```
 
 14. 進入bench目錄
