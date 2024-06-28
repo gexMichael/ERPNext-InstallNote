@@ -89,33 +89,6 @@
 
    ```bash
    sudo npm install -g yarn
-   
-   #yarn config get registry查看源, 如果官方源請設置為以下國內源，如有報錯資訊，請忽略。
-   
-   yarn config set registry https://registry.npmmirror.com/ --global  && \
-   yarn config set disturl https://npmmirror.com/package/dist --global && \
-   yarn config set sass_binary_site https://cdn.npmmirror.com/binaries/node-sass --global  && \
-   yarn config set electron_mirror https://registry.npmmirror.com/binary.html?path=electron/ --global  && \
-   yarn config set puppeteer_download_host https://registry.npmmirror.com/binary.html --global  && \
-   yarn config set chromedriver_cdnurl https://cdn.npmmirror.com/binaries/chromedriver --global  && \
-   yarn config set operadriver_cdnurl https://cdn.npmmirror.com/binaries/operadriver --global  && \
-   yarn config set phantomjs_cdnurl https://cdn.npmmirror.com/binaries/phantomjs --global  && \
-   yarn config set selenium_cdnurl https://cdn.npmmirror.com/binaries/selenium --global  && \
-   yarn config set node_inspector_cdnurl https://cdn.npmmirror.com/binaries/node-inspector --global
-   
-   
-   npm config set canvas_binary_host_mirror=https://registry.npmmirror.com/-/binary/canvas/ && \
-   npm config set registry https://registry.npmmirror.com/ && \
-   npm set registry https://registry.npmmirror.com/ && \
-   npm set disturl https://npmmirror.com/package/dist && \
-   npm set sass_binary_site https://cdn.npmmirror.com/binaries/node-sass && \
-   npm set electron_mirror https://registry.npmmirror.com/binary.html?path=electron/ && \
-   npm set puppeteer_download_host https://registry.npmmirror.com/binary.html && \
-   npm set chromedriver_cdnurl https://cdn.npmmirror.com/binaries/chromedriver && \
-   npm set operadriver_cdnurl https://cdn.npmmirror.com/binaries/operadriver && \
-   npm set phantomjs_cdnurl https://cdn.npmmirror.com/binaries/phantomjs && \
-   npm set selenium_cdnurl https://cdn.npmmirror.com/binaries/selenium && \
-   npm set node_inspector_cdnurl https://cdn.npmmirror.com/binaries/node-inspector
    ```
 
 10. 查看版本，對照一下，這一步不做也行.
@@ -136,7 +109,7 @@
     bench init --frappe-branch version-15 frappe-bench --frappe-path=https://gitee.com/mirrors/frappe --verbose
     ```
 
-13. 再將安裝的系統使用者分配一下執行許可權。（這步沒啥用，寫作文湊字數的，可略過。）
+13. ~~再將安裝的系統使用者分配一下執行許可權。（這步沒啥用，寫作文湊字數的，可略過。）~~
 
     ```bash
     chmod -R o+rx /home/[frappe-user]/
@@ -157,23 +130,23 @@
 16. 設置為生產環境，即用supervisorctl管理所有進程，使用nginx做反向代理。如果安裝只是為了做開發，可以跳過這一步。
 
     ```bash
-    sudo bench setup production {USERNAME}
+    sudo bench setup production frappe
     ```
 
 17. 下載app
 
     ```bash
     bench get-app --branch version-15 https://gitee.com/qinyanwan/payments
-    bench get-app --branch version-15 erpnext https://gitee.com/mirrors/erpnext 
+    bench get-app --branch version-15 erpnext
     bench get-app --branch version-15 https://gitee.com/qinyanwan/hrms  
     ```
 
 18. 安裝app
 
     ```bash
-    bench --site {sitename} install-app payments
-    bench --site {sitename} install-app erpnext
-    bench --site {sitename} install-app hrms
+    bench --site erpnext install-app payments
+    bench --site erpnext install-app erpnext
+    bench --site erpnext install-app hrms
     ```
 
 19. 安裝完後可查看一下是否有活動的wokers，同樣的，如果沒開啟生產環境，這一步也可以略過。
