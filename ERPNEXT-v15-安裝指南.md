@@ -106,7 +106,7 @@
 12. 使用bench命令安裝frappe框架。frappe-bench是安裝frappe框架的目錄名稱。
 
     ```bash
-    bench init --frappe-branch version-15 frappe-bench --frappe-path=https://gitee.com/mirrors/frappe --verbose
+    bench init --frappe-branch version-15 frappe-bench
     ```
 
 13. ~~再將安裝的系統使用者分配一下執行許可權。（這步沒啥用，寫作文湊字數的，可略過。）~~
