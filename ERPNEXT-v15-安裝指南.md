@@ -25,7 +25,7 @@
    sudo apt install -y python3.10-dev python3-setuptools python3-pip python3-distutils python3.10-venv software-properties-common mariadb-server mariadb-client redis-server nodejs xvfb libfontconfig libmysqlclient-dev nginx git ansible pkg-config libcairo2-dev libjpeg-dev libgif-dev librsvg2-dev
    ```
 
-5. 將Python的pip源改成國內源，有助於後面安裝frappe時提高速度和成功率。
+5. ~~將Python的pip源改成國內源，有助於後面安裝frappe時提高速度和成功率。~~
 
    ```bash
    pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
