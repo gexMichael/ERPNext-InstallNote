@@ -1,0 +1,19 @@
+Bypass Validate Selling Rate,豁免採購價或成本價與銷售價校驗
+Asset Issue,發出
+Asset Receipt,收到
+Asset Transfer,轉移
+"for equipment pool case, number of individual equipment","針對一組同類型設備創建一個工站的情況，這裡指有多少台設備，用於控制可同時開工的加工單數量，例如產能(設備台數)為2，則同一天關聯該工站的加工單最多不超過2張"
+"for same sequence ID operations, no preceeding operation to be finished validation check", 相同並行順序號的後工序(工序序號)加工單可不必在前工序完成後才可開始(保存)
+"for physical SFG to be  always produced in-house","針對當前物料是有物料清單的半成品場景，勾選表示生產本物料清單成品時，工單發這個半成品，半成品需另開工單生產入庫，否則工單發半成品還是其下階原材料取決於工單中是否勾選採用多級物料清單"
+"for subcontract case, ticked means this item excluded from the to-be sent to supplier raw material list",針對委外場景，勾選則委外發料(原材料)中不包括此物料
+"if not checked, it will be excluded from send to manufacture,manual transfer it to WIP warehouse without refer to work order instead",不勾選則工單發料時被剔除，需通過諸如物料移動-直接調撥發料至在製品倉以備入庫扣帳
+Common Account,共同類
+Return DN,退貨單號
+Return Qty,退貨數量
+DN Qty,源出貨數量
+"dn and item code not valid, either dn is not submitted or already returned",出庫單與物料號無效，可能是源出庫單未提交或已被退貨
+Return Qty {0} greater than returnable qty {1},退貨數量 {0} 大於源出庫單可退貨數量 {1}
+Return Items,退貨明細
+Batch Sales Return,批次銷售退貨
+Batch Sales Return Item,批次銷售退貨明細
+View Return Delivery Note,顯示退貨單
