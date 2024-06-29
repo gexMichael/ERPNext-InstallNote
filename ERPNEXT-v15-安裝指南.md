@@ -106,10 +106,10 @@
 12. 使用bench命令安裝frappe框架。frappe-bench是安裝frappe框架的目錄名稱。
 
     ```bash
-    bench init --frappe-branch version-15 frappe-bench
+    bench init --frappe-branch version-15 frappe-bench --verbose
     ```
 
-13. 再將安裝的系統使用者分配一下執行許可權。（這步沒啥用，寫作文湊字數的，可略過。）
+13. 再將安裝的系統使用者分配一下執行許可權。
 
     ```bash
     chmod -R o+rx /home/frappe/
@@ -136,9 +136,9 @@
 17. 下載app (注意：一次只能執行一行指令)
 
     ```bash
-    bench get-app --branch version-15 https://gitee.com/qinyanwan/payments
+    bench get-app --branch version-15 payments
     bench get-app --branch version-15 erpnext
-    bench get-app --branch version-15 https://gitee.com/qinyanwan/hrms  
+    bench get-app --branch version-15 hrms  
     ```
 
 18. 安裝app (注意：一次只能執行一行指令)
@@ -189,6 +189,11 @@
     ```bash
     sudo apt-get install ttf-wqy-zenhei -y
     sudo apt-get install ttf-wqy-microhei -y
+    ```
+
+23. 成功安裝後，要記得執行啟動命令(建議安裝中文版本)
+   ```bash
+    bench start
     ```
 
 **其他**
