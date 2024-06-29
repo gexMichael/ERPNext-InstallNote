@@ -3,8 +3,8 @@
 1. 如果當前登錄的是root用戶，就請新建一個用於安裝ERP的sudo用戶。如果已經有sudo組的用戶則可忽略這一步。
 
    ```bash
-   adduser [frappe-user]
-   usermod -aG sudo [frappe-user]
+   adduser frappe
+   usermod -aG sudo frappe
    ```
 
 2. 使用上一步建好的sudo使用者登錄系統，更新系統並重啟系統。
@@ -113,6 +113,8 @@
 
     ```bash
     chmod -R o+rx /home/frappe/
+    或
+    chmod 701 /home/frappe
     ```
 
 14. 進入bench目錄
