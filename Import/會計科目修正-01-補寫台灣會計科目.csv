@@ -1,0 +1,28 @@
+編號,父科目,公司,科目名稱,科目類型,科目代碼
+1211 - 商品存貨 – A,121~122 - 存貨 - A,Acer,商品存貨,Stock,1211
+1212 - 寄銷商品 - A,121~122 - 存貨 - A,Acer,寄銷商品,Stock,1212
+1213 - 在途商品 – A,121~122 - 存貨 - A,Acer,在途商品,Stock,1213
+1219 - 備抵存貨跌價損失 – A,121~122 - 存貨 - A,Acer,備抵存貨跌價損失,Stock,1219
+1221 - 製成品 – A,121~122 - 存貨 - A,Acer,製成品,Stock,1221
+1222 - 寄銷製成品 – A,121~122 - 存貨 - A,Acer,寄銷製成品,Stock,1222
+1223 - 副產品 – A,121~122 - 存貨 - A,Acer,副產品,Stock,1223
+1224 - 在製品 – A,121~122 - 存貨 - A,Acer,在製品,Stock,1224
+1225 - 委外加工 – A,121~122 - 存貨 - A,Acer,委外加工,Stock,1225
+1226 - 原料 – A,121~122 - 存貨 - A,Acer,原料,Stock,1226
+1227 - 物料 – A,121~122 - 存貨 - A,Acer,物料,Stock,1227
+1228 - 在途原物料 – A,121~122 - 存貨 - A,Acer,在途原物料,Stock,1228
+1412 - 累積折舊 - 土地 - A,141 - 土地 - A,Acer,累積折舊 - 土地,Accumulated Depreciation,1412
+1422 - 累積折舊 - 土地改良物 - A,142 - 土地改良物 - A,Acer,累積折舊 - 土地改良物,Accumulated Depreciation,1422
+1432 - 累積折舊 - 房屋及建物 - A,143 - 房屋及建物 - A,Acer,累積折舊 - 房屋及建物,Accumulated Depreciation,1432
+1442 - 累積折舊 - 機(器)具 - A,144~146 - 機(器)具及設備 - A,Acer,累積折舊 - 機(器)具,Accumulated Depreciation,1442
+1482 - 累積折舊 - 雜項固定資產 - A,158 - 雜項固定資產 - A,Acer,累積折舊 - 雜項固定資產,Accumulated Depreciation,1482
+1588 - 固定資產清理 - A,158 - 雜項固定資產 - A,Acer,固定資產清理,Fixed Asset,1588
+214101 - 應付帳款-供應商款 - A,2141 - 應付帳款 - A,Acer,應付帳款-供應商款,Payable,214101
+214102 - 應付帳款-暫估庫存 - A,2141 - 應付帳款 - A,Acer,應付帳款-暫估庫存,Stock Received But Not Billed,214102
+214103 - 應付帳款-暫估服務 - A,2141 - 應付帳款 - A,Acer,應付帳款-暫估服務,Service Received But Not Billed,214103
+214104 - 應付帳款-暫估資產 - A,2141 - 應付帳款 - A,Acer,應付帳款-暫估資產,Asset Received But Not Billed,214104
+214105 - 應付帳款-暫估委外加工費 - A,2141 - 應付帳款 - A,Acer,應付帳款-暫估委外加工費,Payable,214105
+214106 - 應付帳款-暫估其他 - A,2141 - 應付帳款 - A,Acer,應付帳款-暫估其他,Payable,214106
+5181 - 製造費用-結轉資產 - A,515~518 - 製造費用 - A,Acer,製造費用-結轉資產,Expenses Included In Asset Valuation,5181
+5182 - 製造費用-結轉庫存 - A,515~518 - 製造費用 - A,Acer,製造費用-結轉庫存,Expenses Included In Valuation,5182
+6279 - 存貨調整費 - A,625~628 - 管理及總務費用 - A,Acer,存貨調整費,Stock Adjustment,6279

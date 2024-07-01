@@ -1,0 +1,17 @@
+"批量編輯Items"
+"Barcode","Has Item Scanned","Item Code","Item Name","Item Group","Warehouse","Quantity","Valuation Rate","Amount","Allow Zero Valuation Rate","Use Serial No / Batch Fields","Serial / Batch Bundle","Current Serial / Batch Bundle","Serial No","Batch No","Current Qty","Current Amount","Current Valuation Rate","Current Serial No","Quantity Difference","Amount Difference"
+"barcode","has_item_scanned","item_code","item_name","item_group","warehouse","qty","valuation_rate","amount","allow_zero_valuation_rate","use_serial_batch_fields","serial_and_batch_bundle","current_serial_and_batch_bundle","serial_no","batch_no","current_qty","current_amount","current_valuation_rate","current_serial_no","quantity_difference","amount_difference"
+" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "
+"CSV格式區分大小寫"
+"不要編輯模板中預設的標題"
+"------"
+"","","6934177727269","小米10T Lite 5G (6G+128G) 玫瑰金","手機","倉庫 - A",10,8800,88000,"",1,"","","","","","","","",10,88000
+"","","6934177701139","小米(新)行動電源2 10000 黑色","行動電源","倉庫 - A",20,300,6000,"",1,"","","","","","","","",20,6000
+"","","6934177707544","小米米家行車紀錄器1S 台灣版","生活家電","倉庫 - A",50,1600,80000,"",1,"","","","","","","","",50,80000
+"","","6934177736377","小米手環6","生活周邊","倉庫 - A",25,950,23750,"",1,"","","","","","","","",25,23750
+"","","6934177715570","小米 米家掃拖機器人","洗地機","倉庫 - A",10,8500,85000,"",1,"","","","","","","","",10,85000
+"","","6934177709920","小米 米家 LED 智慧檯燈1S","生活家電","倉庫 - A",20,650,13000,"",1,"","","","","","","","",20,13000
+"","","6934177717178","小米 米家掃拖機器人G1","洗地機","倉庫 - A",20,9500,190000,"",1,"","","","","","","","",20,190000
+"","","6934177720338","小米 米家掃拖機器人G1 拖布","清潔用品","倉庫 - A",50,300,15000,"",1,"","","","","","","","",50,15000
+"","","6934177720369","小米 米家掃拖機器人G1 主刷","清潔用品","倉庫 - A",30,500,15000,"",1,"","","","","","","","",30,15000
+"","","6934177720376","小米 米家掃拖機器人G1 邊刷","清潔用品","倉庫 - A",30,350,10500,"",1,"","","","","","","","",30,10500
