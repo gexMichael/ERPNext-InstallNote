@@ -1,4 +1,5 @@
 在 Windows Server 2012 上架設 Oracle VirtualBox 虛擬機並安裝 Linux，以及將其與 Windows IIS 整合為多站服務，您可以按照以下步驟進行操作：
+### 以下答案是詢問 ChatGPT 3.5 得到的回覆
 
 ### 步驟 1：安裝 Oracle VirtualBox
 1. **下載 VirtualBox**：從 Oracle 官方網站下載 VirtualBox 的最新版本。
