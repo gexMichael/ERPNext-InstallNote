@@ -13,6 +13,9 @@
 ### translation
 正體中文的翻譯檔，必須先安裝余老師的簡體版本後，再上傳正體版本後，大部分的翻譯才會比較正確。
 
+### 電子書參考
+https://youtu.be/9fcTqTMxUBM
+
 ### 安裝指南
 fork from 笑熬浆糊
 
