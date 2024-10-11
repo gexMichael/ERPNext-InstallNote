@@ -1,4 +1,4 @@
-### 使用 SHOW - tabLES 列出所有的 - tables
+### 使用 SHOW TABLES 列出所有的 tables
 - __Auth
 - __UserSettings
 - __global_search
