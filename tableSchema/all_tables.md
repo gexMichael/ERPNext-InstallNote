@@ -1,832 +1,832 @@
-### 使用 SHOW TABLES 列出所有的 Tables
-__Auth
-__UserSettings
-__global_search
-bisect_nodes_id_seq
-crm_note_id_seq
-ledger_health_id_seq
-prospect_opportunity_id_seq
-pwa_notification_id_seq
-tabAbout Us Team Member
-tabAccess Log
-tabAccount
-tabAccount Closing Balance
-tabAccounting Dimension
-tabAccounting Dimension Detail
-tabAccounting Dimension Filter
-tabAccounting Period
-tabActivity Cost
-tabActivity Log
-tabActivity Type
-tabAdditional Salary
-tabAddress
-tabAddress Template
-tabAdvance Tax
-tabAdvance Taxes and Charges
-tabAllowed Dimension
-tabAllowed To Transact With
-tabAmended Document Naming Settings
-tabApplicable On Account
-tabAppointment
-tabAppointment Booking Slots
-tabAppointment Letter
-tabAppointment Letter Template
-tabAppointment Letter content
-tabAppraisal
-tabAppraisal Cycle
-tabAppraisal Goal
-tabAppraisal KRA
-tabAppraisal Template
-tabAppraisal Template Goal
-tabAppraisee
-tabAsset
-tabAsset Activity
-tabAsset Capitalization
-tabAsset Capitalization Asset Item
-tabAsset Capitalization Service Item
-tabAsset Capitalization Stock Item
-tabAsset Category
-tabAsset Category Account
-tabAsset Depreciation Schedule
-tabAsset Finance Book
-tabAsset Maintenance
-tabAsset Maintenance Log
-tabAsset Maintenance Task
-tabAsset Maintenance Team
-tabAsset Movement
-tabAsset Movement Item
-tabAsset Repair
-tabAsset Repair Consumed Item
-tabAsset Shift Allocation
-tabAsset Shift Factor
-tabAsset Value Adjustment
-tabAssignment Rule
-tabAssignment Rule Day
-tabAssignment Rule User
-tabAttendance
-tabAttendance Request
-tabAuthorization Rule
-tabAuto Email Report
-tabAuto Repeat
-tabAuto Repeat Day
-tabAvailability Of Slots
-tabBOM
-tabBOM Creator
-tabBOM Creator Item
-tabBOM Explosion Item
-tabBOM Item
-tabBOM Operation
-tabBOM Scrap Item
-tabBOM Update Batch
-tabBOM Update Log
-tabBOM Website Item
-tabBOM Website Operation
-tabBank
-tabBank Account
-tabBank Account Subtype
-tabBank Account Type
-tabBank Clearance Detail
-tabBank Guarantee
-tabBank Statement Import
-tabBank Transaction
-tabBank Transaction Mapping
-tabBank Transaction Payments
-tabBatch
-tabBin
-tabBisect Nodes
-tabBlanket Order
-tabBlanket Order Item
-tabBlock Module
-tabBlog Category
-tabBlog Post
-tabBlogger
-tabBraintree Settings
-tabBranch
-tabBrand
-tabBudget
-tabBudget Account
-tabBulk Transaction Log Detail
-tabCRM Note
-tabCalendar View
-tabCall Log
-tabCampaign
-tabCampaign Email Schedule
-tabCampaign Item
-tabCashier Closing
-tabCashier Closing Payments
-tabChangelog Feed
-tabCheque Print Template
-tabClient Script
-tabClosed Document
-tabClosing Stock Balance
-tabColor
-tabComment
-tabCommunication
-tabCommunication Link
-tabCommunication Medium
-tabCommunication Medium Timeslot
-tabCompany
-tabCompany History
-tabCompensatory Leave Request
-tabCompetitor
-tabCompetitor Detail
-tabConnected App
-tabConsole Log
-tabContact
-tabContact Email
-tabContact Phone
-tabContract
-tabContract Fulfilment Checklist
-tabContract Template
-tabContract Template Fulfilment Terms
-tabCost Center
-tabCost Center Allocation
-tabCost Center Allocation Percentage
-tabCountry
-tabCoupon Code
-tabCurrency
-tabCurrency Exchange
-tabCurrency Exchange Settings Details
-tabCurrency Exchange Settings Result
-tabCustom DocPerm
-tabCustom Field
-tabCustom HTML Block
-tabCustom Role
-tabCustomer
-tabCustomer Credit Limit
-tabCustomer Group
-tabCustomer Group Item
-tabCustomer Item
-tabCustomize Form Field
-tabCustoms Tariff Number
-tabDaily Work Summary
-tabDaily Work Summary Group
-tabDaily Work Summary Group User
-tabDashboard
-tabDashboard Chart
-tabDashboard Chart Field
-tabDashboard Chart Link
-tabDashboard Chart Source
-tabDashboard Settings
-tabData Import
-tabData Import Log
-tabDefaultValue
-tabDeleted Document
-tabDelivery Note
-tabDelivery Note Item
-tabDelivery Stop
-tabDelivery Trip
-tabDepartment
-tabDepartment Approver
-tabDependent Task
-tabDepreciation Schedule
-tabDesignation
-tabDesignation Skill
-tabDesktop Icon
-tabDiscounted Invoice
-tabDiscussion Reply
-tabDiscussion Topic
-tabDocField
-tabDocPerm
-tabDocShare
-tabDocType
-tabDocType Action
-tabDocType Layout
-tabDocType Layout Field
-tabDocType Link
-tabDocType State
-tabDocument Follow
-tabDocument Naming Rule
-tabDocument Naming Rule Condition
-tabDocument Share Key
-tabDomain
-tabDowntime Entry
-tabDriver
-tabDriving License Category
-tabDunning
-tabDunning Letter Text
-tabDunning Type
-tabDynamic Link
-tabEmail Account
-tabEmail Campaign
-tabEmail Digest
-tabEmail Digest Recipient
-tabEmail Domain
-tabEmail Flag Queue
-tabEmail Group
-tabEmail Group Member
-tabEmail Queue
-tabEmail Queue Recipient
-tabEmail Rule
-tabEmail Template
-tabEmail Unsubscribe
-tabEmployee
-tabEmployee Advance
-tabEmployee Benefit Application
-tabEmployee Benefit Application Detail
-tabEmployee Benefit Claim
-tabEmployee Boarding Activity
-tabEmployee Checkin
-tabEmployee Cost Center
-tabEmployee Education
-tabEmployee External Work History
-tabEmployee Feedback Criteria
-tabEmployee Feedback Rating
-tabEmployee Grade
-tabEmployee Grievance
-tabEmployee Group
-tabEmployee Group Table
-tabEmployee Health Insurance
-tabEmployee Incentive
-tabEmployee Internal Work History
-tabEmployee Onboarding
-tabEmployee Onboarding Template
-tabEmployee Other Income
-tabEmployee Performance Feedback
-tabEmployee Promotion
-tabEmployee Property History
-tabEmployee Referral
-tabEmployee Separation
-tabEmployee Separation Template
-tabEmployee Skill
-tabEmployee Skill Map
-tabEmployee Tax Exemption Category
-tabEmployee Tax Exemption Declaration
-tabEmployee Tax Exemption Declaration Category
-tabEmployee Tax Exemption Proof Submission
-tabEmployee Tax Exemption Proof Submission Detail
-tabEmployee Tax Exemption Sub Category
-tabEmployee Training
-tabEmployee Transfer
-tabEmployment Type
-tabEnergy Point Log
-tabEnergy Point Rule
-tabError Log
-tabEvent
-tabEvent Participants
-tabExchange Rate Revaluation
-tabExchange Rate Revaluation Account
-tabExit Interview
-tabExpected Skill Set
-tabExpense Claim
-tabExpense Claim Account
-tabExpense Claim Advance
-tabExpense Claim Detail
-tabExpense Claim Type
-tabExpense Taxes and Charges
-tabFile
-tabFinance Book
-tabFiscal Year
-tabFiscal Year Company
-tabForm Tour
-tabForm Tour Step
-tabFull and Final Asset
-tabFull and Final Outstanding Statement
-tabFull and Final Statement
-tabGL Entry
-tabGender
-tabGlobal Search DocType
-tabGoCardless Mandate
-tabGoCardless Settings
-tabGoal
-tabGoogle Calendar
-tabGoogle Contacts
-tabGratuity
-tabGratuity Applicable Component
-tabGratuity Rule
-tabGratuity Rule Slab
-tabGrievance Type
-tabHas Domain
-tabHas Role
-tabHelp Article
-tabHelp Category
-tabHoliday
-tabHoliday List
-tabHomepage Section
-tabHomepage Section Card
-tabIMAP Folder
-tabIdentification Document Type
-tabImport Supplier Invoice
-tabIncome Tax Slab
-tabIncome Tax Slab Other Charges
-tabIncoming Call Handling Schedule
-tabIncoming Call Settings
-tabIncoterm
-tabIndustry Type
-tabInstallation Note
-tabInstallation Note Item
-tabInstalled Application
-tabIntegration Request
-tabInterest
-tabInterview
-tabInterview Detail
-tabInterview Feedback
-tabInterview Round
-tabInterview Type
-tabInterviewer
-tabInventory Dimension
-tabInvoice Discounting
-tabIssue
-tabIssue Priority
-tabIssue Type
-tabItem
-tabItem Alternative
-tabItem Attribute
-tabItem Attribute Value
-tabItem Barcode
-tabItem Customer Detail
-tabItem Default
-tabItem Group
-tabItem Manufacturer
-tabItem Price
-tabItem Quality Inspection Parameter
-tabItem Reorder
-tabItem Supplier
-tabItem Tax
-tabItem Tax Template
-tabItem Tax Template Detail
-tabItem Variant
-tabItem Variant Attribute
-tabItem Website Specification
-tabJob Applicant
-tabJob Applicant Source
-tabJob Card
-tabJob Card Item
-tabJob Card Operation
-tabJob Card Scheduled Time
-tabJob Card Scrap Item
-tabJob Card Time Log
-tabJob Offer
-tabJob Offer Term
-tabJob Offer Term Template
-tabJob Opening
-tabJob Requisition
-tabJournal Entry
-tabJournal Entry Account
-tabJournal Entry Template
-tabJournal Entry Template Account
-tabKRA
-tabKanban Board
-tabKanban Board Column
-tabLDAP Group Mapping
-tabLanded Cost Item
-tabLanded Cost Purchase Receipt
-tabLanded Cost Taxes and Charges
-tabLanded Cost Voucher
-tabLanguage
-tabLead
-tabLead Source
-tabLeave Allocation
-tabLeave Application
-tabLeave Block List
-tabLeave Block List Allow
-tabLeave Block List Date
-tabLeave Encashment
-tabLeave Ledger Entry
-tabLeave Period
-tabLeave Policy
-tabLeave Policy Assignment
-tabLeave Policy Detail
-tabLeave Type
-tabLedger Health
-tabLedger Health Monitor Company
-tabLedger Merge
-tabLedger Merge Accounts
-tabLetter Head
-tabLinked Location
-tabList Filter
-tabList View Settings
-tabLocation
-tabLog Setting User
-tabLogs To Clear
-tabLost Reason Detail
-tabLower Deduction Certificate
-tabLoyalty Point Entry
-tabLoyalty Point Entry Redemption
-tabLoyalty Program
-tabLoyalty Program Collection
-tabMaintenance Schedule
-tabMaintenance Schedule Detail
-tabMaintenance Schedule Item
-tabMaintenance Team Member
-tabMaintenance Visit
-tabMaintenance Visit Purpose
-tabManufacturer
-tabMarket Segment
-tabMarketing Campaign
-tabMaterial Request
-tabMaterial Request Item
-tabMaterial Request Plan Item
-tabMilestone
-tabMilestone Tracker
-tabMode of Payment
-tabMode of Payment Account
-tabModule Def
-tabModule Onboarding
-tabModule Profile
-tabMonthly Distribution
-tabMonthly Distribution Percentage
-tabMpesa Settings
-tabNavbar Item
-tabNetwork Printer Settings
-tabNewsletter
-tabNewsletter Attachment
-tabNewsletter Email Group
-tabNon Conformance
-tabNote
-tabNote Seen By
-tabNotification
-tabNotification Log
-tabNotification Recipient
-tabNotification Settings
-tabNotification Subscribed Document
-tabNumber Card
-tabNumber Card Link
-tabOAuth Authorization Code
-tabOAuth Bearer Token
-tabOAuth Client
-tabOAuth Client Role
-tabOAuth Scope
-tabOffer Term
-tabOnboarding Permission
-tabOnboarding Step
-tabOnboarding Step Map
-tabOpening Invoice Creation Tool Item
-tabOperation
-tabOpportunity
-tabOpportunity Item
-tabOpportunity Lost Reason
-tabOpportunity Lost Reason Detail
-tabOpportunity Type
-tabOverdue Payment
-tabPOS Closing Entry
-tabPOS Closing Entry Detail
-tabPOS Closing Entry Taxes
-tabPOS Customer Group
-tabPOS Field
-tabPOS Invoice
-tabPOS Invoice Item
-tabPOS Invoice Merge Log
-tabPOS Invoice Reference
-tabPOS Item Group
-tabPOS Opening Entry
-tabPOS Opening Entry Detail
-tabPOS Payment Method
-tabPOS Profile
-tabPOS Profile User
-tabPOS Search Fields
-tabPSOA Cost Center
-tabPSOA Project
-tabPWA Notification
-tabPackage
-tabPackage Import
-tabPackage Release
-tabPacked Item
-tabPacking Slip
-tabPacking Slip Item
-tabPage
-tabParty Account
-tabParty Link
-tabParty Specific Item
-tabParty Type
-tabPatch Log
-tabPause SLA On Status
-tabPayment Entry
-tabPayment Entry Deduction
-tabPayment Entry Reference
-tabPayment Gateway
-tabPayment Gateway Account
-tabPayment Ledger Entry
-tabPayment Order
-tabPayment Order Reference
-tabPayment Request
-tabPayment Schedule
-tabPayment Term
-tabPayment Terms Template
-tabPayment Terms Template Detail
-tabPayroll Employee Detail
-tabPayroll Entry
-tabPayroll Period
-tabPayroll Period Date
-tabPeriod Closing Voucher
-tabPersonal Data Deletion Request
-tabPersonal Data Deletion Step
-tabPersonal Data Download Request
-tabPick List
-tabPick List Item
-tabPlant Floor
-tabPortal Menu Item
-tabPortal User
-tabPrepared Report
-tabPrice List
-tabPrice List Country
-tabPricing Rule
-tabPricing Rule Brand
-tabPricing Rule Detail
-tabPricing Rule Item Code
-tabPricing Rule Item Group
-tabPrint Format
-tabPrint Format Field Template
-tabPrint Heading
-tabPrint Style
-tabProcess Deferred Accounting
-tabProcess Payment Reconciliation
-tabProcess Payment Reconciliation Log
-tabProcess Payment Reconciliation Log Allocations
-tabProcess Statement Of Accounts
-tabProcess Statement Of Accounts Customer
-tabProcess Subscription
-tabProduct Bundle
-tabProduct Bundle Item
-tabProduction Plan
-tabProduction Plan Item
-tabProduction Plan Item Reference
-tabProduction Plan Material Request
-tabProduction Plan Material Request Warehouse
-tabProduction Plan Sales Order
-tabProduction Plan Sub Assembly Item
-tabProject
-tabProject Template
-tabProject Template Task
-tabProject Type
-tabProject Update
-tabProject User
-tabPromotional Scheme
-tabPromotional Scheme Price Discount
-tabPromotional Scheme Product Discount
-tabProperty Setter
-tabProspect
-tabProspect Lead
-tabProspect Opportunity
-tabPurchase Invoice
-tabPurchase Invoice Advance
-tabPurchase Invoice Item
-tabPurchase Order
-tabPurchase Order Item
-tabPurchase Order Item Supplied
-tabPurchase Receipt
-tabPurchase Receipt Item
-tabPurchase Receipt Item Supplied
-tabPurchase Taxes and Charges
-tabPurchase Taxes and Charges Template
-tabPurpose of Travel
-tabPutaway Rule
-tabQuality Action
-tabQuality Action Resolution
-tabQuality Feedback
-tabQuality Feedback Parameter
-tabQuality Feedback Template
-tabQuality Feedback Template Parameter
-tabQuality Goal
-tabQuality Goal Objective
-tabQuality Inspection
-tabQuality Inspection Parameter
-tabQuality Inspection Parameter Group
-tabQuality Inspection Reading
-tabQuality Inspection Template
-tabQuality Meeting
-tabQuality Meeting Agenda
-tabQuality Meeting Minutes
-tabQuality Procedure
-tabQuality Procedure Process
-tabQuality Review
-tabQuality Review Objective
-tabQuery Parameters
-tabQuotation
-tabQuotation Item
-tabQuotation Lost Reason
-tabQuotation Lost Reason Detail
-tabReminder
-tabReport
-tabReport Column
-tabReport Filter
-tabRepost Accounting Ledger
-tabRepost Accounting Ledger Items
-tabRepost Allowed Types
-tabRepost Item Valuation
-tabRepost Payment Ledger
-tabRepost Payment Ledger Items
-tabRequest for Quotation
-tabRequest for Quotation Item
-tabRequest for Quotation Supplier
-tabRetention Bonus
-tabReview Level
-tabRole
-tabRole Profile
-tabRoute History
-tabRouting
-tabSLA Fulfilled On Status
-tabSMS Log
-tabSMS Parameter
-tabSalary Component
-tabSalary Component Account
-tabSalary Detail
-tabSalary Slip
-tabSalary Slip Leave
-tabSalary Slip Loan
-tabSalary Slip Timesheet
-tabSalary Structure
-tabSalary Structure Assignment
-tabSales Invoice
-tabSales Invoice Advance
-tabSales Invoice Item
-tabSales Invoice Payment
-tabSales Invoice Timesheet
-tabSales Order
-tabSales Order Item
-tabSales Partner
-tabSales Partner Item
-tabSales Partner Type
-tabSales Person
-tabSales Stage
-tabSales Taxes and Charges
-tabSales Taxes and Charges Template
-tabSales Team
-tabSalutation
-tabScheduled Job Log
-tabScheduled Job Type
-tabSerial No
-tabSerial and Batch Bundle
-tabSerial and Batch Entry
-tabSeries
-tabServer Script
-tabService Day
-tabService Level Agreement
-tabService Level Priority
-tabSession Default
-tabSessions
-tabShare Balance
-tabShare Transfer
-tabShare Type
-tabShareholder
-tabShift Assignment
-tabShift Request
-tabShift Type
-tabShipment
-tabShipment Delivery Note
-tabShipment Parcel
-tabShipment Parcel Template
-tabShipping Rule
-tabShipping Rule Condition
-tabShipping Rule Country
-tabSingles
-tabSkill
-tabSkill Assessment
-tabSlack Webhook URL
-tabSocial Link Settings
-tabSocial Login Key
-tabSouth Africa VAT Account
-tabSouth Africa VAT Settings
-tabStaffing Plan
-tabStaffing Plan Detail
-tabStock Entry
-tabStock Entry Detail
-tabStock Entry Type
-tabStock Ledger Entry
-tabStock Reconciliation
-tabStock Reconciliation Item
-tabStock Reservation Entry
-tabStripe Settings
-tabSub Operation
-tabSubcontracting BOM
-tabSubcontracting Order
-tabSubcontracting Order Item
-tabSubcontracting Order Service Item
-tabSubcontracting Order Supplied Item
-tabSubcontracting Receipt
-tabSubcontracting Receipt Item
-tabSubcontracting Receipt Supplied Item
-tabSubmission Queue
-tabSubscription
-tabSubscription Invoice
-tabSubscription Plan
-tabSubscription Plan Detail
-tabSuccess Action
-tabSupplier
-tabSupplier Group
-tabSupplier Group Item
-tabSupplier Item
-tabSupplier Quotation
-tabSupplier Quotation Item
-tabSupplier Scorecard
-tabSupplier Scorecard Criteria
-tabSupplier Scorecard Period
-tabSupplier Scorecard Scoring Criteria
-tabSupplier Scorecard Scoring Standing
-tabSupplier Scorecard Scoring Variable
-tabSupplier Scorecard Standing
-tabSupplier Scorecard Variable
-tabSupport Search Source
-tabTag
-tabTag Link
-tabTally Migration
-tabTarget Detail
-tabTask
-tabTask Depends On
-tabTask Type
-tabTax Category
-tabTax Rule
-tabTax Withheld Vouchers
-tabTax Withholding Account
-tabTax Withholding Category
-tabTax Withholding Rate
-tabTaxable Salary Slab
-tabTelephony Call Type
-tabTerms and Conditions
-tabTerritory
-tabTerritory Item
-tabTimesheet
-tabTimesheet Detail
-tabToDo
-tabToken Cache
-tabTop Bar Item
-tabTraining Event
-tabTraining Event Employee
-tabTraining Feedback
-tabTraining Program
-tabTraining Result
-tabTraining Result Employee
-tabTransaction Deletion Record
-tabTransaction Deletion Record Details
-tabTransaction Deletion Record Item
-tabTransaction Log
-tabTranslation
-tabTravel Itinerary
-tabTravel Request
-tabTravel Request Costing
-tabUAE VAT Account
-tabUAE VAT Settings
-tabUOM
-tabUOM Category
-tabUOM Conversion Detail
-tabUOM Conversion Factor
-tabUnhandled Email
-tabUnreconcile Payment
-tabUnreconcile Payment Entries
-tabUser
-tabUser Document Type
-tabUser Email
-tabUser Group
-tabUser Group Member
-tabUser Permission
-tabUser Select Document Type
-tabUser Social Login
-tabUser Type
-tabUser Type Module
-tabVariant Field
-tabVehicle
-tabVehicle Log
-tabVehicle Service
-tabVehicle Service Item
-tabVersion
-tabVideo
-tabView Log
-tabVoice Call Settings
-tabWarehouse
-tabWarehouse Type
-tabWarranty Claim
-tabWeb Form
-tabWeb Form Field
-tabWeb Form List Column
-tabWeb Page
-tabWeb Page Block
-tabWeb Page View
-tabWeb Template
-tabWeb Template Field
-tabWebhook
-tabWebhook Data
-tabWebhook Header
-tabWebhook Request Log
-tabWebsite Attribute
-tabWebsite Filter Field
-tabWebsite Item Group
-tabWebsite Meta Tag
-tabWebsite Route Meta
-tabWebsite Route Redirect
-tabWebsite Sidebar
-tabWebsite Sidebar Item
-tabWebsite Slideshow
-tabWebsite Slideshow Item
-tabWebsite Theme
-tabWebsite Theme Ignore App
-tabWork Order
-tabWork Order Item
-tabWork Order Operation
-tabWorkflow
-tabWorkflow Action
-tabWorkflow Action Master
-tabWorkflow Action Permitted Role
-tabWorkflow Document State
-tabWorkflow State
-tabWorkflow Transition
-tabWorkspace
-tabWorkspace Chart
-tabWorkspace Custom Block
-tabWorkspace Link
-tabWorkspace Number Card
-tabWorkspace Quick List
-tabWorkspace Shortcut
-tabWorkstation
-tabWorkstation Type
-tabWorkstation Working Hour
-web_form_list_column_id_seq
+### 使用 SHOW - tabLES 列出所有的 - tables
+- __Auth
+- __UserSettings
+- __global_search
+- bisect_nodes_id_seq
+- crm_note_id_seq
+- ledger_health_id_seq
+- prospect_opportunity_id_seq
+- pwa_notification_id_seq
+- tabAbout Us Team Member
+- tabAccess Log
+- tabAccount
+- tabAccount Closing Balance
+- tabAccounting Dimension
+- tabAccounting Dimension Detail
+- tabAccounting Dimension Filter
+- tabAccounting Period
+- tabActivity Cost
+- tabActivity Log
+- tabActivity Type
+- tabAdditional Salary
+- tabAddress
+- tabAddress Template
+- tabAdvance Tax
+- tabAdvance Taxes and Charges
+- tabAllowed Dimension
+- tabAllowed To Transact With
+- tabAmended Document Naming Settings
+- tabApplicable On Account
+- tabAppointment
+- tabAppointment Booking Slots
+- tabAppointment Letter
+- tabAppointment Letter Template
+- tabAppointment Letter content
+- tabAppraisal
+- tabAppraisal Cycle
+- tabAppraisal Goal
+- tabAppraisal KRA
+- tabAppraisal Template
+- tabAppraisal Template Goal
+- tabAppraisee
+- tabAsset
+- tabAsset Activity
+- tabAsset Capitalization
+- tabAsset Capitalization Asset Item
+- tabAsset Capitalization Service Item
+- tabAsset Capitalization Stock Item
+- tabAsset Category
+- tabAsset Category Account
+- tabAsset Depreciation Schedule
+- tabAsset Finance Book
+- tabAsset Maintenance
+- tabAsset Maintenance Log
+- tabAsset Maintenance Task
+- tabAsset Maintenance Team
+- tabAsset Movement
+- tabAsset Movement Item
+- tabAsset Repair
+- tabAsset Repair Consumed Item
+- tabAsset Shift Allocation
+- tabAsset Shift Factor
+- tabAsset Value Adjustment
+- tabAssignment Rule
+- tabAssignment Rule Day
+- tabAssignment Rule User
+- tabAttendance
+- tabAttendance Request
+- tabAuthorization Rule
+- tabAuto Email Report
+- tabAuto Repeat
+- tabAuto Repeat Day
+- tabAvailability Of Slots
+- tabBOM
+- tabBOM Creator
+- tabBOM Creator Item
+- tabBOM Explosion Item
+- tabBOM Item
+- tabBOM Operation
+- tabBOM Scrap Item
+- tabBOM Update Batch
+- tabBOM Update Log
+- tabBOM Website Item
+- tabBOM Website Operation
+- tabBank
+- tabBank Account
+- tabBank Account Subtype
+- tabBank Account Type
+- tabBank Clearance Detail
+- tabBank Guarantee
+- tabBank Statement Import
+- tabBank Transaction
+- tabBank Transaction Mapping
+- tabBank Transaction Payments
+- tabBatch
+- tabBin
+- tabBisect Nodes
+- tabBlanket Order
+- tabBlanket Order Item
+- tabBlock Module
+- tabBlog Category
+- tabBlog Post
+- tabBlogger
+- tabBraintree Settings
+- tabBranch
+- tabBrand
+- tabBudget
+- tabBudget Account
+- tabBulk Transaction Log Detail
+- tabCRM Note
+- tabCalendar View
+- tabCall Log
+- tabCampaign
+- tabCampaign Email Schedule
+- tabCampaign Item
+- tabCashier Closing
+- tabCashier Closing Payments
+- tabChangelog Feed
+- tabCheque Print Template
+- tabClient Script
+- tabClosed Document
+- tabClosing Stock Balance
+- tabColor
+- tabComment
+- tabCommunication
+- tabCommunication Link
+- tabCommunication Medium
+- tabCommunication Medium Timeslot
+- tabCompany
+- tabCompany History
+- tabCompensatory Leave Request
+- tabCompetitor
+- tabCompetitor Detail
+- tabConnected App
+- tabConsole Log
+- tabContact
+- tabContact Email
+- tabContact Phone
+- tabContract
+- tabContract Fulfilment Checklist
+- tabContract Template
+- tabContract Template Fulfilment Terms
+- tabCost Center
+- tabCost Center Allocation
+- tabCost Center Allocation Percentage
+- tabCountry
+- tabCoupon Code
+- tabCurrency
+- tabCurrency Exchange
+- tabCurrency Exchange Settings Details
+- tabCurrency Exchange Settings Result
+- tabCustom DocPerm
+- tabCustom Field
+- tabCustom HTML Block
+- tabCustom Role
+- tabCustomer
+- tabCustomer Credit Limit
+- tabCustomer Group
+- tabCustomer Group Item
+- tabCustomer Item
+- tabCustomize Form Field
+- tabCustoms Tariff Number
+- tabDaily Work Summary
+- tabDaily Work Summary Group
+- tabDaily Work Summary Group User
+- tabDashboard
+- tabDashboard Chart
+- tabDashboard Chart Field
+- tabDashboard Chart Link
+- tabDashboard Chart Source
+- tabDashboard Settings
+- tabData Import
+- tabData Import Log
+- tabDefaultValue
+- tabDeleted Document
+- tabDelivery Note
+- tabDelivery Note Item
+- tabDelivery Stop
+- tabDelivery Trip
+- tabDepartment
+- tabDepartment Approver
+- tabDependent Task
+- tabDepreciation Schedule
+- tabDesignation
+- tabDesignation Skill
+- tabDesktop Icon
+- tabDiscounted Invoice
+- tabDiscussion Reply
+- tabDiscussion Topic
+- tabDocField
+- tabDocPerm
+- tabDocShare
+- tabDocType
+- tabDocType Action
+- tabDocType Layout
+- tabDocType Layout Field
+- tabDocType Link
+- tabDocType State
+- tabDocument Follow
+- tabDocument Naming Rule
+- tabDocument Naming Rule Condition
+- tabDocument Share Key
+- tabDomain
+- tabDowntime Entry
+- tabDriver
+- tabDriving License Category
+- tabDunning
+- tabDunning Letter Text
+- tabDunning Type
+- tabDynamic Link
+- tabEmail Account
+- tabEmail Campaign
+- tabEmail Digest
+- tabEmail Digest Recipient
+- tabEmail Domain
+- tabEmail Flag Queue
+- tabEmail Group
+- tabEmail Group Member
+- tabEmail Queue
+- tabEmail Queue Recipient
+- tabEmail Rule
+- tabEmail Template
+- tabEmail Unsubscribe
+- tabEmployee
+- tabEmployee Advance
+- tabEmployee Benefit Application
+- tabEmployee Benefit Application Detail
+- tabEmployee Benefit Claim
+- tabEmployee Boarding Activity
+- tabEmployee Checkin
+- tabEmployee Cost Center
+- tabEmployee Education
+- tabEmployee External Work History
+- tabEmployee Feedback Criteria
+- tabEmployee Feedback Rating
+- tabEmployee Grade
+- tabEmployee Grievance
+- tabEmployee Group
+- tabEmployee Group - table
+- tabEmployee Health Insurance
+- tabEmployee Incentive
+- tabEmployee Internal Work History
+- tabEmployee Onboarding
+- tabEmployee Onboarding Template
+- tabEmployee Other Income
+- tabEmployee Performance Feedback
+- tabEmployee Promotion
+- tabEmployee Property History
+- tabEmployee Referral
+- tabEmployee Separation
+- tabEmployee Separation Template
+- tabEmployee Skill
+- tabEmployee Skill Map
+- tabEmployee Tax Exemption Category
+- tabEmployee Tax Exemption Declaration
+- tabEmployee Tax Exemption Declaration Category
+- tabEmployee Tax Exemption Proof Submission
+- tabEmployee Tax Exemption Proof Submission Detail
+- tabEmployee Tax Exemption Sub Category
+- tabEmployee Training
+- tabEmployee Transfer
+- tabEmployment Type
+- tabEnergy Point Log
+- tabEnergy Point Rule
+- tabError Log
+- tabEvent
+- tabEvent Participants
+- tabExchange Rate Revaluation
+- tabExchange Rate Revaluation Account
+- tabExit Interview
+- tabExpected Skill Set
+- tabExpense Claim
+- tabExpense Claim Account
+- tabExpense Claim Advance
+- tabExpense Claim Detail
+- tabExpense Claim Type
+- tabExpense Taxes and Charges
+- tabFile
+- tabFinance Book
+- tabFiscal Year
+- tabFiscal Year Company
+- tabForm Tour
+- tabForm Tour Step
+- tabFull and Final Asset
+- tabFull and Final Outstanding Statement
+- tabFull and Final Statement
+- tabGL Entry
+- tabGender
+- tabGlobal Search DocType
+- tabGoCardless Mandate
+- tabGoCardless Settings
+- tabGoal
+- tabGoogle Calendar
+- tabGoogle Contacts
+- tabGratuity
+- tabGratuity Applicable Component
+- tabGratuity Rule
+- tabGratuity Rule Slab
+- tabGrievance Type
+- tabHas Domain
+- tabHas Role
+- tabHelp Article
+- tabHelp Category
+- tabHoliday
+- tabHoliday List
+- tabHomepage Section
+- tabHomepage Section Card
+- tabIMAP Folder
+- tabIdentification Document Type
+- tabImport Supplier Invoice
+- tabIncome Tax Slab
+- tabIncome Tax Slab Other Charges
+- tabIncoming Call Handling Schedule
+- tabIncoming Call Settings
+- tabIncoterm
+- tabIndustry Type
+- tabInstallation Note
+- tabInstallation Note Item
+- tabInstalled Application
+- tabIntegration Request
+- tabInterest
+- tabInterview
+- tabInterview Detail
+- tabInterview Feedback
+- tabInterview Round
+- tabInterview Type
+- tabInterviewer
+- tabInventory Dimension
+- tabInvoice Discounting
+- tabIssue
+- tabIssue Priority
+- tabIssue Type
+- tabItem
+- tabItem Alternative
+- tabItem Attribute
+- tabItem Attribute Value
+- tabItem Barcode
+- tabItem Customer Detail
+- tabItem Default
+- tabItem Group
+- tabItem Manufacturer
+- tabItem Price
+- tabItem Quality Inspection Parameter
+- tabItem Reorder
+- tabItem Supplier
+- tabItem Tax
+- tabItem Tax Template
+- tabItem Tax Template Detail
+- tabItem Variant
+- tabItem Variant Attribute
+- tabItem Website Specification
+- tabJob Applicant
+- tabJob Applicant Source
+- tabJob Card
+- tabJob Card Item
+- tabJob Card Operation
+- tabJob Card Scheduled Time
+- tabJob Card Scrap Item
+- tabJob Card Time Log
+- tabJob Offer
+- tabJob Offer Term
+- tabJob Offer Term Template
+- tabJob Opening
+- tabJob Requisition
+- tabJournal Entry
+- tabJournal Entry Account
+- tabJournal Entry Template
+- tabJournal Entry Template Account
+- tabKRA
+- tabKanban Board
+- tabKanban Board Column
+- tabLDAP Group Mapping
+- tabLanded Cost Item
+- tabLanded Cost Purchase Receipt
+- tabLanded Cost Taxes and Charges
+- tabLanded Cost Voucher
+- tabLanguage
+- tabLead
+- tabLead Source
+- tabLeave Allocation
+- tabLeave Application
+- tabLeave Block List
+- tabLeave Block List Allow
+- tabLeave Block List Date
+- tabLeave Encashment
+- tabLeave Ledger Entry
+- tabLeave Period
+- tabLeave Policy
+- tabLeave Policy Assignment
+- tabLeave Policy Detail
+- tabLeave Type
+- tabLedger Health
+- tabLedger Health Monitor Company
+- tabLedger Merge
+- tabLedger Merge Accounts
+- tabLetter Head
+- tabLinked Location
+- tabList Filter
+- tabList View Settings
+- tabLocation
+- tabLog Setting User
+- tabLogs To Clear
+- tabLost Reason Detail
+- tabLower Deduction Certificate
+- tabLoyalty Point Entry
+- tabLoyalty Point Entry Redemption
+- tabLoyalty Program
+- tabLoyalty Program Collection
+- tabMaintenance Schedule
+- tabMaintenance Schedule Detail
+- tabMaintenance Schedule Item
+- tabMaintenance Team Member
+- tabMaintenance Visit
+- tabMaintenance Visit Purpose
+- tabManufacturer
+- tabMarket Segment
+- tabMarketing Campaign
+- tabMaterial Request
+- tabMaterial Request Item
+- tabMaterial Request Plan Item
+- tabMilestone
+- tabMilestone Tracker
+- tabMode of Payment
+- tabMode of Payment Account
+- tabModule Def
+- tabModule Onboarding
+- tabModule Profile
+- tabMonthly Distribution
+- tabMonthly Distribution Percentage
+- tabMpesa Settings
+- tabNavbar Item
+- tabNetwork Printer Settings
+- tabNewsletter
+- tabNewsletter Attachment
+- tabNewsletter Email Group
+- tabNon Conformance
+- tabNote
+- tabNote Seen By
+- tabNotification
+- tabNotification Log
+- tabNotification Recipient
+- tabNotification Settings
+- tabNotification Subscribed Document
+- tabNumber Card
+- tabNumber Card Link
+- tabOAuth Authorization Code
+- tabOAuth Bearer Token
+- tabOAuth Client
+- tabOAuth Client Role
+- tabOAuth Scope
+- tabOffer Term
+- tabOnboarding Permission
+- tabOnboarding Step
+- tabOnboarding Step Map
+- tabOpening Invoice Creation Tool Item
+- tabOperation
+- tabOpportunity
+- tabOpportunity Item
+- tabOpportunity Lost Reason
+- tabOpportunity Lost Reason Detail
+- tabOpportunity Type
+- tabOverdue Payment
+- tabPOS Closing Entry
+- tabPOS Closing Entry Detail
+- tabPOS Closing Entry Taxes
+- tabPOS Customer Group
+- tabPOS Field
+- tabPOS Invoice
+- tabPOS Invoice Item
+- tabPOS Invoice Merge Log
+- tabPOS Invoice Reference
+- tabPOS Item Group
+- tabPOS Opening Entry
+- tabPOS Opening Entry Detail
+- tabPOS Payment Method
+- tabPOS Profile
+- tabPOS Profile User
+- tabPOS Search Fields
+- tabPSOA Cost Center
+- tabPSOA Project
+- tabPWA Notification
+- tabPackage
+- tabPackage Import
+- tabPackage Release
+- tabPacked Item
+- tabPacking Slip
+- tabPacking Slip Item
+- tabPage
+- tabParty Account
+- tabParty Link
+- tabParty Specific Item
+- tabParty Type
+- tabPatch Log
+- tabPause SLA On Status
+- tabPayment Entry
+- tabPayment Entry Deduction
+- tabPayment Entry Reference
+- tabPayment Gateway
+- tabPayment Gateway Account
+- tabPayment Ledger Entry
+- tabPayment Order
+- tabPayment Order Reference
+- tabPayment Request
+- tabPayment Schedule
+- tabPayment Term
+- tabPayment Terms Template
+- tabPayment Terms Template Detail
+- tabPayroll Employee Detail
+- tabPayroll Entry
+- tabPayroll Period
+- tabPayroll Period Date
+- tabPeriod Closing Voucher
+- tabPersonal Data Deletion Request
+- tabPersonal Data Deletion Step
+- tabPersonal Data Download Request
+- tabPick List
+- tabPick List Item
+- tabPlant Floor
+- tabPortal Menu Item
+- tabPortal User
+- tabPrepared Report
+- tabPrice List
+- tabPrice List Country
+- tabPricing Rule
+- tabPricing Rule Brand
+- tabPricing Rule Detail
+- tabPricing Rule Item Code
+- tabPricing Rule Item Group
+- tabPrint Format
+- tabPrint Format Field Template
+- tabPrint Heading
+- tabPrint Style
+- tabProcess Deferred Accounting
+- tabProcess Payment Reconciliation
+- tabProcess Payment Reconciliation Log
+- tabProcess Payment Reconciliation Log Allocations
+- tabProcess Statement Of Accounts
+- tabProcess Statement Of Accounts Customer
+- tabProcess Subscription
+- tabProduct Bundle
+- tabProduct Bundle Item
+- tabProduction Plan
+- tabProduction Plan Item
+- tabProduction Plan Item Reference
+- tabProduction Plan Material Request
+- tabProduction Plan Material Request Warehouse
+- tabProduction Plan Sales Order
+- tabProduction Plan Sub Assembly Item
+- tabProject
+- tabProject Template
+- tabProject Template Task
+- tabProject Type
+- tabProject Update
+- tabProject User
+- tabPromotional Scheme
+- tabPromotional Scheme Price Discount
+- tabPromotional Scheme Product Discount
+- tabProperty Setter
+- tabProspect
+- tabProspect Lead
+- tabProspect Opportunity
+- tabPurchase Invoice
+- tabPurchase Invoice Advance
+- tabPurchase Invoice Item
+- tabPurchase Order
+- tabPurchase Order Item
+- tabPurchase Order Item Supplied
+- tabPurchase Receipt
+- tabPurchase Receipt Item
+- tabPurchase Receipt Item Supplied
+- tabPurchase Taxes and Charges
+- tabPurchase Taxes and Charges Template
+- tabPurpose of Travel
+- tabPutaway Rule
+- tabQuality Action
+- tabQuality Action Resolution
+- tabQuality Feedback
+- tabQuality Feedback Parameter
+- tabQuality Feedback Template
+- tabQuality Feedback Template Parameter
+- tabQuality Goal
+- tabQuality Goal Objective
+- tabQuality Inspection
+- tabQuality Inspection Parameter
+- tabQuality Inspection Parameter Group
+- tabQuality Inspection Reading
+- tabQuality Inspection Template
+- tabQuality Meeting
+- tabQuality Meeting Agenda
+- tabQuality Meeting Minutes
+- tabQuality Procedure
+- tabQuality Procedure Process
+- tabQuality Review
+- tabQuality Review Objective
+- tabQuery Parameters
+- tabQuotation
+- tabQuotation Item
+- tabQuotation Lost Reason
+- tabQuotation Lost Reason Detail
+- tabReminder
+- tabReport
+- tabReport Column
+- tabReport Filter
+- tabRepost Accounting Ledger
+- tabRepost Accounting Ledger Items
+- tabRepost Allowed Types
+- tabRepost Item Valuation
+- tabRepost Payment Ledger
+- tabRepost Payment Ledger Items
+- tabRequest for Quotation
+- tabRequest for Quotation Item
+- tabRequest for Quotation Supplier
+- tabRetention Bonus
+- tabReview Level
+- tabRole
+- tabRole Profile
+- tabRoute History
+- tabRouting
+- tabSLA Fulfilled On Status
+- tabSMS Log
+- tabSMS Parameter
+- tabSalary Component
+- tabSalary Component Account
+- tabSalary Detail
+- tabSalary Slip
+- tabSalary Slip Leave
+- tabSalary Slip Loan
+- tabSalary Slip Timesheet
+- tabSalary Structure
+- tabSalary Structure Assignment
+- tabSales Invoice
+- tabSales Invoice Advance
+- tabSales Invoice Item
+- tabSales Invoice Payment
+- tabSales Invoice Timesheet
+- tabSales Order
+- tabSales Order Item
+- tabSales Partner
+- tabSales Partner Item
+- tabSales Partner Type
+- tabSales Person
+- tabSales Stage
+- tabSales Taxes and Charges
+- tabSales Taxes and Charges Template
+- tabSales Team
+- tabSalutation
+- tabScheduled Job Log
+- tabScheduled Job Type
+- tabSerial No
+- tabSerial and Batch Bundle
+- tabSerial and Batch Entry
+- tabSeries
+- tabServer Script
+- tabService Day
+- tabService Level Agreement
+- tabService Level Priority
+- tabSession Default
+- tabSessions
+- tabShare Balance
+- tabShare Transfer
+- tabShare Type
+- tabShareholder
+- tabShift Assignment
+- tabShift Request
+- tabShift Type
+- tabShipment
+- tabShipment Delivery Note
+- tabShipment Parcel
+- tabShipment Parcel Template
+- tabShipping Rule
+- tabShipping Rule Condition
+- tabShipping Rule Country
+- tabSingles
+- tabSkill
+- tabSkill Assessment
+- tabSlack Webhook URL
+- tabSocial Link Settings
+- tabSocial Login Key
+- tabSouth Africa VAT Account
+- tabSouth Africa VAT Settings
+- tabStaffing Plan
+- tabStaffing Plan Detail
+- tabStock Entry
+- tabStock Entry Detail
+- tabStock Entry Type
+- tabStock Ledger Entry
+- tabStock Reconciliation
+- tabStock Reconciliation Item
+- tabStock Reservation Entry
+- tabStripe Settings
+- tabSub Operation
+- tabSubcontracting BOM
+- tabSubcontracting Order
+- tabSubcontracting Order Item
+- tabSubcontracting Order Service Item
+- tabSubcontracting Order Supplied Item
+- tabSubcontracting Receipt
+- tabSubcontracting Receipt Item
+- tabSubcontracting Receipt Supplied Item
+- tabSubmission Queue
+- tabSubscription
+- tabSubscription Invoice
+- tabSubscription Plan
+- tabSubscription Plan Detail
+- tabSuccess Action
+- tabSupplier
+- tabSupplier Group
+- tabSupplier Group Item
+- tabSupplier Item
+- tabSupplier Quotation
+- tabSupplier Quotation Item
+- tabSupplier Scorecard
+- tabSupplier Scorecard Criteria
+- tabSupplier Scorecard Period
+- tabSupplier Scorecard Scoring Criteria
+- tabSupplier Scorecard Scoring Standing
+- tabSupplier Scorecard Scoring Variable
+- tabSupplier Scorecard Standing
+- tabSupplier Scorecard Variable
+- tabSupport Search Source
+- tabTag
+- tabTag Link
+- tabTally Migration
+- tabTarget Detail
+- tabTask
+- tabTask Depends On
+- tabTask Type
+- tabTax Category
+- tabTax Rule
+- tabTax Withheld Vouchers
+- tabTax Withholding Account
+- tabTax Withholding Category
+- tabTax Withholding Rate
+- tabTaxable Salary Slab
+- tabTelephony Call Type
+- tabTerms and Conditions
+- tabTerritory
+- tabTerritory Item
+- tabTimesheet
+- tabTimesheet Detail
+- tabToDo
+- tabToken Cache
+- tabTop Bar Item
+- tabTraining Event
+- tabTraining Event Employee
+- tabTraining Feedback
+- tabTraining Program
+- tabTraining Result
+- tabTraining Result Employee
+- tabTransaction Deletion Record
+- tabTransaction Deletion Record Details
+- tabTransaction Deletion Record Item
+- tabTransaction Log
+- tabTranslation
+- tabTravel Itinerary
+- tabTravel Request
+- tabTravel Request Costing
+- tabUAE VAT Account
+- tabUAE VAT Settings
+- tabUOM
+- tabUOM Category
+- tabUOM Conversion Detail
+- tabUOM Conversion Factor
+- tabUnhandled Email
+- tabUnreconcile Payment
+- tabUnreconcile Payment Entries
+- tabUser
+- tabUser Document Type
+- tabUser Email
+- tabUser Group
+- tabUser Group Member
+- tabUser Permission
+- tabUser Select Document Type
+- tabUser Social Login
+- tabUser Type
+- tabUser Type Module
+- tabVariant Field
+- tabVehicle
+- tabVehicle Log
+- tabVehicle Service
+- tabVehicle Service Item
+- tabVersion
+- tabVideo
+- tabView Log
+- tabVoice Call Settings
+- tabWarehouse
+- tabWarehouse Type
+- tabWarranty Claim
+- tabWeb Form
+- tabWeb Form Field
+- tabWeb Form List Column
+- tabWeb Page
+- tabWeb Page Block
+- tabWeb Page View
+- tabWeb Template
+- tabWeb Template Field
+- tabWebhook
+- tabWebhook Data
+- tabWebhook Header
+- tabWebhook Request Log
+- tabWebsite Attribute
+- tabWebsite Filter Field
+- tabWebsite Item Group
+- tabWebsite Meta Tag
+- tabWebsite Route Meta
+- tabWebsite Route Redirect
+- tabWebsite Sidebar
+- tabWebsite Sidebar Item
+- tabWebsite Slideshow
+- tabWebsite Slideshow Item
+- tabWebsite Theme
+- tabWebsite Theme Ignore App
+- tabWork Order
+- tabWork Order Item
+- tabWork Order Operation
+- tabWorkflow
+- tabWorkflow Action
+- tabWorkflow Action Master
+- tabWorkflow Action Permitted Role
+- tabWorkflow Document State
+- tabWorkflow State
+- tabWorkflow Transition
+- tabWorkspace
+- tabWorkspace Chart
+- tabWorkspace Custom Block
+- tabWorkspace Link
+- tabWorkspace Number Card
+- tabWorkspace Quick List
+- tabWorkspace Shortcut
+- tabWorkstation
+- tabWorkstation Type
+- tabWorkstation Working Hour
+- web_form_list_column_id_seq
