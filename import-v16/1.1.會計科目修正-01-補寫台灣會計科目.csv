@@ -1,0 +1,28 @@
+id_number,parent_account,company,account_name,account_type,account_number
+1211 - 商品存貨 – o,121~122 - 存貨 – o,osaa,商品存貨,Stock,1211
+1212 - 寄銷商品 – o,121~122 - 存貨 – o,osaa,寄銷商品,Stock,1212
+1213 - 在途商品 – o,121~122 - 存貨 – o,osaa,在途商品,Stock,1213
+1219 - 備抵存貨跌價損失 – o,121~122 - 存貨 – o,osaa,備抵存貨跌價損失,Stock,1219
+1221 - 製成品 – o,121~122 - 存貨 – o,osaa,製成品,Stock,1221
+1222 - 寄銷製成品 – o,121~122 - 存貨 – o,osaa,寄銷製成品,Stock,1222
+1223 - 副產品 – o,121~122 - 存貨 – o,osaa,副產品,Stock,1223
+1224 - 在製品 – o,121~122 - 存貨 – o,osaa,在製品,Stock,1224
+1225 - 委外加工 – o,121~122 - 存貨 – o,osaa,委外加工,Stock,1225
+1226 - 原料 – o,121~122 - 存貨 – o,osaa,原料,Stock,1226
+1227 - 物料 – o,121~122 - 存貨 – o,osaa,物料,Stock,1227
+1228 - 在途原物料 – o,121~122 - 存貨 – o,osaa,在途原物料,Stock,1228
+1412 - 累積折舊 - 土地 – o,141 - 土地 – o,osaa,累積折舊 - 土地,Accumulated Depreciation,1412
+1422 - 累積折舊 - 土地改良物 – o,142 - 土地改良物 – o,osaa,累積折舊 - 土地改良物,Accumulated Depreciation,1422
+1432 - 累積折舊 - 房屋及建物 – o,143 - 房屋及建物 – o,osaa,累積折舊 - 房屋及建物,Accumulated Depreciation,1432
+1442 - 累積折舊 - 機(器)具 – o,144~146 - 機(器)具及設備 – o,osaa,累積折舊 - 機(器)具,Accumulated Depreciation,1442
+1482 - 累積折舊 - 雜項固定資產 – o,158 - 雜項固定資產 – o,osaa,累積折舊 - 雜項固定資產,Accumulated Depreciation,1482
+1588 - 固定資產清理 – o,158 - 雜項固定資產 – o,osaa,固定資產清理,Fixed Asset,1588
+214101 - 應付帳款-供應商款 – o,2141 - 應付帳款 – o,osaa,應付帳款-供應商款,Payable,214101
+214102 - 應付帳款-暫估庫存 – o,2141 - 應付帳款 – o,osaa,應付帳款-暫估庫存,Stock Received But Not Billed,214102
+214103 - 應付帳款-暫估服務 – o,2141 - 應付帳款 – o,osaa,應付帳款-暫估服務,Service Received But Not Billed,214103
+214104 - 應付帳款-暫估資產 – o,2141 - 應付帳款 – o,osaa,應付帳款-暫估資產,Asset Received But Not Billed,214104
+214105 - 應付帳款-暫估委外加工費 – o,2141 - 應付帳款 – o,osaa,應付帳款-暫估委外加工費,Payable,214105
+214106 - 應付帳款-暫估其他 – o,2141 - 應付帳款 – o,osaa,應付帳款-暫估其他,Payable,214106
+5181 - 製造費用-結轉資產 – o,515~518 - 製造費用 – o,osaa,製造費用-結轉資產,Expenses Included In Asset Valuation,5181
+5182 - 製造費用-結轉庫存 – o,515~518 - 製造費用 – o,osaa,製造費用-結轉庫存,Expenses Included In Valuation,5182
+6279 - 存貨調整費 – o,625~628 - 管理及總務費用 – o,osaa,存貨調整費,Stock Adjustment,6279

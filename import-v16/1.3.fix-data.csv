@@ -1,0 +1,10 @@
+id_number,parent_account,company,account_name,account_type,account_number
+5181 - 製造費用-結轉資產 - o,515~518 - 製造費用 - o,osaa,製造費用-結轉資產,Expenses Included In Asset Valuation,5181
+5182 - 製造費用-結轉庫存 - o,515~518 - 製造費用 - o,osaa,製造費用-結轉庫存,Expenses Included In Valuation,5182
+214101 - 應付帳款-供應商款 - o,2141 - 應付帳款 - o,osaa,應付帳款-供應商款,Payable,214101
+214102 - 應付帳款-暫估庫存 - o,2141 - 應付帳款 - o,osaa,應付帳款-暫估庫存,Stock Received But Not Billed,214102
+214103 - 應付帳款-暫估服務 - o,2141 - 應付帳款 - o,osaa,應付帳款-暫估服務,Service Received But Not Billed,214103
+214104 - 應付帳款-暫估資產 - o,2141 - 應付帳款 - o,osaa,應付帳款-暫估資產,Asset Received But Not Billed,214104
+214105 - 應付帳款-暫估委外加工費 - o,2141 - 應付帳款 - o,osaa,應付帳款-暫估委外加工費,Payable,214105
+214106 - 應付帳款-暫估其他 - o,2141 - 應付帳款 - o,osaa,應付帳款-暫估其他,Payable,214106
+1588 - 固定資產清理 - o,158 - 雜項固定資產 - o,osaa,固定資產清理,Fixed Asset,1588

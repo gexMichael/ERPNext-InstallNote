@@ -1,0 +1,3 @@
+id_number,parent_account,company,account_name,account_type,account_number
+111301 - 中信銀松山分行 - o,1113 - 銀行存款 - o,osaa,中信銀松山分行,Bank,111301
+111302 - 國泰世華松山分行 - o,1113 - 銀行存款 - o,osaa,國泰世華松山分行,Bank,111302

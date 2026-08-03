@@ -1,0 +1,6 @@
+customer_type,default_currency,customer_name,customer_group,default_price_list,tax_category
+Company,TWD,冬兒購物網,經銷商,經銷價,三聯式
+Company,TWD,五菱貿易,代理商,代理商價,三聯式
+Company,TWD,華威科技,企業客戶,零售價,三聯式
+Company,TWD,遠信會計師,企業客戶,零售價,三聯式
+Company,TWD,台積國際,企業客戶,零售價,三聯式
